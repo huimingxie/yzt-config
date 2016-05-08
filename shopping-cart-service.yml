@@ -21,16 +21,16 @@ spring:
     database: MYSQL
     generate-ddl: true
   datasource:
-    url: jdbc:mysql://218.244.146.42:3306/dev
+    url: jdbc:mysql://47.88.77.37:3306/dev
     username: root
     password: dbpass
 security:
   oauth2:
     resource:
-      userInfoUri: http://218.244.146.42:8181/uaa/user
+      userInfoUri: http://47.88.77.37:8181/uaa/user
     client:
       client-id: acme
-      access-token-uri: http://218.244.146.42:8787
+      access-token-uri: http://47.88.77.37:8787
   enable-csrf: false
 eureka:
   instance:
@@ -54,7 +54,7 @@ spring:
 security:
   oauth2:
     resource:
-      userInfoUri: http://${DOCKER_IP:218.244.146.42}:8181/uaa/user
+      userInfoUri: http://${DOCKER_IP:47.88.77.37}:8181/uaa/user
     client:
       client-id: acme
   enable-csrf: false

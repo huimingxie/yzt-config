@@ -11,10 +11,10 @@ spring:
 spring:
   profiles: development
   redis:
-    host: 218.244.146.42
+    host: 47.88.77.37
     port: 6379
   datasource:
-    url: jdbc:mysql://218.244.146.42:3306/dev?useSSL=false
+    url: jdbc:mysql://47.88.77.37:3306/dev?useSSL=false
     username: root
     password: dbpass
     initialize: false

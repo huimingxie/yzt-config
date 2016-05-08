@@ -64,7 +64,7 @@ zuul:
 security:
   oauth2:
     resource:
-      userInfoUri: http://${DOCKER_IP:218.244.146.42}:8181/uaa/user
+      userInfoUri: http://${DOCKER_IP:47.88.77.37}:8181/uaa/user
   ignored: /catalog/**
 eureka:
   instance:
